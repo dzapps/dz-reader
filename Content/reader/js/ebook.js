@@ -60,7 +60,7 @@ function loadPage(page, pageElement) {
 	}
 	else{
 		var coverElement = document.createElement("div");
-		coverElement.innerHTML = "<h1 class='uk-position-cover uk-flex uk-flex-center uk-flex-middle'>کتابخوان دیجیتال</h1>";
+		coverElement.innerHTML = "<h1 class='uk-position-cover uk-flex uk-flex-center uk-flex-middle'>DZ  Reader</h1>";
 		$(coverElement).appendTo(pageElement);
 		pageElement.find('.loader').remove();
 	}
